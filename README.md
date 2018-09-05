@@ -1,1 +1,1 @@
-# An node application to play with node and typescript.
+# An node application to play with typescript.
