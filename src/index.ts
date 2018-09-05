@@ -8,7 +8,6 @@ import {User} from "./entity/User";
 
 createConnection().then(async connection => {
 
-    // create express app
     const app = express();
     app.use(bodyParser.json());
 
@@ -25,10 +24,6 @@ createConnection().then(async connection => {
         });
     });
 
-    // setup express app here
-    // ...
-
-    // start express server
     app.listen(3000);
 
     // insert new users for test

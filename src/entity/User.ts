@@ -13,6 +13,6 @@ export class User {
     lastName: string;
 
     @Column()
+    //I know
     age: number;
-
 }

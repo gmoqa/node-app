@@ -1,20 +1,14 @@
 import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
 
 @Entity()
-export class Post {
+export class Category {
 
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column()
-    title: string;
+    name: string;
 
     @Column()
-    body: string;
-
-    @Column()
-    createdAt: Date;
-
-    @Column()
-    isPublished: boolean;
+    isEnabled: boolean;
 }
