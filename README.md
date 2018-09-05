@@ -1,1 +1,1 @@
-# Awesome NODE APP
+# An node application to play with node and typescript.
